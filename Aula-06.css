@@ -1,0 +1,49 @@
+header{
+    background-color:#24c0eb;
+    text-align: center;
+    padding: 50px;
+}
+
+header h1{
+    color: #f1ebeb;
+    padding: 30px;
+}
+
+.sec1{
+    background-color: #f1ebeb;
+    padding: 100px;
+}
+
+.sec2{
+    background-color: #eee8e8;
+    padding: 100px;
+}
+
+.sec3{
+    background-color:#cacaca ;
+}
+details{
+    background-color: #cacaca;
+    padding: 30px;
+}
+summary{
+    color: #000000;
+    padding: 100px;
+    text-align: center;
+}
+footer{
+background-color: #5cceee;
+padding: 90px;
+text-align: right;
+
+}
+ul{
+    list-style-type: none;/*Remover os Marcadores (Bullets ou Números)*/
+    font-size: 20px; /*alterar tamanho da fonte*/
+    margin-bottom: 10px; /* Espaço entre os itens */
+text-align: right;/* Alinha os itens de lista à direita */
+}
+.local{
+    margin-bottom: 10px;/* Espaço entre os itens */
+    text-align: left;/* Alinha os itens de lista à esquerda */
+}
