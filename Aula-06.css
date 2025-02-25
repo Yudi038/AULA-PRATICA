@@ -1,49 +1,145 @@
-header{
-    background-color:#24c0eb;
+header {
+    background-color: #24c0eb;
+    /*Cor de fundo*/
     text-align: center;
+    /*alinhar texto no centro*/
     padding: 50px;
+    /*altera tamanho do fundo*/
+    display: flex;
+    /*Responsavel por tornar os itens flex e deixar lado a lado /desbloqueia outras tag*/
+    justify-content: center;
+    /*Organização dos conteudos dentro do Cabeçalho*/
+    gap: 15px;
+    /*Espaçamentos entro os elementos (h1 e img)*/
+    align-items: center;
+    /*Alinhamento dos itens*/
 }
 
-header h1{
+header h1 {
     color: #f1ebeb;
+    /*cor da letra*/
     padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    /*altera tamanho da fonte*/
 }
 
-.sec1{
+
+header img {
+    width: 70px;
+    /*largura da logo*/
+
+}
+
+
+
+
+.sec1 {
     background-color: #f1ebeb;
+    /*Cor de fundo*/
     padding: 100px;
+    /*altera tamanho do fundo*/
+    display: flex;
+    /*Responsavel por tornar os itens flex e deixar lado a lado /desbloqueia outras tag*/
+    justify-content: center;
+    /*Organização dos conteudos dentro ao centro*/
+    gap: 20px;
+    /*Espaçamentos entro os elementos*/
+    align-items: center;
+    /*Alinhamento dos itens*/
 }
 
-.sec2{
+
+.sec2 {
     background-color: #eee8e8;
+    /*Cor de fundo*/
     padding: 100px;
+    /*altera tamanho do fundo*/
+    display: flex;
+    /*Responsavel por tornar os itens flex e deixar lado a lado /desbloqueia outras tag*/
+    justify-content: center;
+    /*Organização dos conteudos dentro ao centro*/
+    gap: 20px;
+    /*Espaçamentos entro os elementos*/
+    align-items: center;
+    /*Alinhamento dos itens*/
 }
 
-.sec3{
-    background-color:#cacaca ;
-}
-details{
+.sec3 {
     background-color: #cacaca;
-    padding: 30px;
+    /*Cor de fundo*/
 }
-summary{
+
+details {
+    background-color: #cacaca;
+    /*Cor de fundo*/
+    padding: 100px;
+    /*altera tamanho do fundo*/
+}
+
+summary {
     color: #000000;
     padding: 100px;
+    /*altera tamanho do fundo*/
     text-align: center;
-}
-footer{
-background-color: #5cceee;
-padding: 90px;
-text-align: right;
+    font-size: 40px;
+    /*altera tamanho da fonte*/
 
 }
-ul{
-    list-style-type: none;/*Remover os Marcadores (Bullets ou Números)*/
-    font-size: 20px; /*alterar tamanho da fonte*/
-    margin-bottom: 10px; /* Espaço entre os itens */
-text-align: right;/* Alinha os itens de lista à direita */
+
+.sec3 i {
+    font-size: 30px;
+    color: crimson;
+    
+
 }
-.local{
-    margin-bottom: 10px;/* Espaço entre os itens */
-    text-align: left;/* Alinha os itens de lista à esquerda */
+
+.sec4 {
+    padding: 300px;
+    background-image: url(imagens/cafe-1869656_1280.jpg);
+    /*caminho da imagem*/
+    background-position: bottom;
+    /*posição da imagem*/
+    background-size: cover;
+    /*Preenchimento total da imagem*/
+
+
+
+}
+
+
+
+
+
+footer {
+    background-color: #5cceee;
+    /*Cor de fundo*/
+    padding: 90px;
+    /*altera tamanho do fundo*/
+    text-align: right;
+
+}
+
+ul {
+    list-style-type: none;
+    /*Remover os Marcadores (Bullets ou Números)*/
+    font-size: 20px;
+    /*alterar tamanho da fonte*/
+    margin-bottom: 10px;
+    /* Espaço entre os itens */
+    text-align: right;
+    /* Alinha os itens de lista à direita */
+}
+
+.local {
+    margin-bottom: 10px;
+    /* Espaço entre os itens */
+    text-align: left;
+    /* Alinha os itens de lista à esquerda */
+}
+
+footer i {
+    font-size: 30px;
+    color: crimson;
+    align-items: center;
 }
