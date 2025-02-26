@@ -1,0 +1,25 @@
+.bujao button{
+    background: linear-gradient(45deg, #6a5acd, #ff6347); /* Gradiente de cor */
+    color: white; /* Cor do texto */
+    border: 2px solid #fff; /* Borda branca */
+    padding: 15px 40px; /* Espaçamento interno */
+    font-size: 18px; /* Tamanho da fonte */
+    text-transform: uppercase; /* Transforma o texto para maiúsculas */
+    border-radius: 12px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    cursor: pointer; /* Cursor de mãozinha ao passar por cima */
+    transition: all 0.3s ease; /* Transições suaves para mudanças */
+    outline: none; /* Remove o contorno */
+    font-family: 'Arial', sans-serif; /* Fonte do botão */
+}
+/* Efeito de hover - quando o mouse passa sobre o botão */
+.bujao button:hover {
+  background: linear-gradient(45deg, #ff6347, #6a5acd); /* Inverte o gradiente ao passar o mouse */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Aumenta a sombra */
+  transform: translateY(-4px); /* Dá um "efeito de levantar" no botão */
+}
+/* Efeito de focus - quando o botão é clicado ou focado */
+.bujao :focus {
+    outline: none; /* Remove o contorno de foco */
+    box-shadow: 0 0 15px rgba(255, 99, 71, 0.8); /* Sombra brilhante quando o botão é focado */
+  }

@@ -68,6 +68,7 @@ header img {
 .sec3 {
     background-color: #cacaca;
     /*Cor de fundo*/
+    text-align: center;
 }
 
 details {
@@ -89,22 +90,49 @@ summary {
 
 .sec3 i {
     font-size: 30px;
-    color: crimson;
-    
+    /*altera tamanho da fonte*/
+    color: beige;
+
+
 
 }
 
 .sec4 {
     padding: 300px;
-    background-image: url(imagens/cafe-1869656_1280.jpg);
+    background-image: url(imagens/coffeehouse-2600877_1280.jpg);
     /*caminho da imagem*/
-    background-position: bottom;
+    background-position: center;
     /*posição da imagem*/
     background-size: cover;
     /*Preenchimento total da imagem*/
+    background-repeat: no-repeat;
+    /*retirando a repetição da imagem no Backgroud.*/
+    display: flex;
+    /*Tornando os itens flex */
+    justify-content: center;
+    /*Alinhamento o botão ao centro*/
 
 
+}
 
+.sec4 button {
+    width: 150px;
+    /*largura do botão*/
+    padding: 10px;
+    /*preechimento do botão*/
+    background-color: rgba(128, 128, 128, 0.26);
+    /*cor de fundo com opacidade*/
+    color: white;
+    /*cor de letrado botão*/
+    border-radius: 10px;
+    /*Arredonda as bordas*/
+
+}
+
+/* Efeito de hover - quando o botão é pressionado */
+.sec4 button:hover {
+    background-color: #000000a2;
+    /* Cor de fundo ao passar o mouse */
 }
 
 
@@ -116,30 +144,15 @@ footer {
     /*Cor de fundo*/
     padding: 90px;
     /*altera tamanho do fundo*/
-    text-align: right;
-
+    text-align: center;
+ 
 }
 
-ul {
-    list-style-type: none;
-    /*Remover os Marcadores (Bullets ou Números)*/
-    font-size: 20px;
-    /*alterar tamanho da fonte*/
-    margin-bottom: 10px;
-    /* Espaço entre os itens */
-    text-align: right;
-    /* Alinha os itens de lista à direita */
-}
-
-.local {
-    margin-bottom: 10px;
-    /* Espaço entre os itens */
-    text-align: left;
-    /* Alinha os itens de lista à esquerda */
-}
 
 footer i {
     font-size: 30px;
-    color: crimson;
-    align-items: center;
+    color: beige;
+
 }
+
+/**/
